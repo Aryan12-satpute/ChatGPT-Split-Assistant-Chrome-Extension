@@ -1,7 +1,4 @@
-# ChatGPT-Split-Assistant-Chrome-Extension
 # ChatGPT Split Assistant Chrome Extension 🧠💬
-
-# ChatGPT Split Assistant Chrome Extension
 
 ## 🧠 What is it?
 
