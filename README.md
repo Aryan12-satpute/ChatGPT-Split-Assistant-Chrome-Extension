@@ -1,7 +1,7 @@
 # ChatGPT-Split-Assistant-Chrome-Extension
 # ChatGPT Split Assistant Chrome Extension 🧠💬
 
-![Extension Banner](https://your-image-link-if-you-have-one)
+![Extension Banner]([https://your-image-link-if-you-have-one](https://www.google.com/search?sca_esv=20a3364d895c8ae1&sxsrf=AE3TifMPnU6Wt57MK0Pv10Z7YkQMgZOiTw:1752469884191&q=openai+logo&uds=AOm0WdE2fekQnsyfYEw8JPYozOKzZphdMg0WoGGNfNRiec6dXOHctq0rZLFJUo0oIq4e0W993ujG7X4RIyQQclIEZAN0ZlETFOsIPWRqsRO7ofDLH6aS5WOtZWgpHTB2DAFc5CfqKE7vtKwpIk2SSxzPD4pH0_gCkw&udm=2&sa=X&ved=2ahUKEwih6bSHy7uOAxXb4zgGHTsWMs0QxKsJKAB6BAgNEAE&ictx=0&biw=1707&bih=811&dpr=1.13#vhid=gyjxfYuu6xQT7M&vssid=mosaic))
 
 ## 🔍 Overview
 The **ChatGPT Split Assistant** is a Chrome extension that enhances the ChatGPT experience by splitting the page into two panels:
