@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Split Assistant",
+  "version": "1.0",
+  "description": "Split ChatGPT into two terminals: main and helper for detailed clarification.",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "*://chat.openai.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chat.openai.com/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}

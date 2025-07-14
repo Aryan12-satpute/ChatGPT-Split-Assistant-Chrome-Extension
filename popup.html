@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ChatGPT Split Assistant</title>
+  <style>
+    body {
+      background-color: #2c2c2c;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 20px;
+      width: 220px;
+      height: 300px;
+    }
+
+    .logo-container {
+      margin-bottom: 15px;
+    }
+
+    .logo-container img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+    }
+
+    .heading-text {
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      color: #ffffff;
+      margin-bottom: 30px;
+    }
+
+    .mint-text {
+      color: #4CC38A;
+    }
+
+    #powerButton {
+      width: 80px;
+      height: 80px;
+      border: 3px solid #888;
+      border-radius: 50%;
+      background-color: transparent;
+      margin: 0 auto 20px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+    }
+
+    #powerButton:hover {
+      transform: scale(1.05);
+      border-color: #4CC38A;
+    }
+
+    #powerButton.on {
+      background-color: #4CC38A;
+      border-color: #4CC38A;
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(76, 195, 138, 0.7); }
+      70% { box-shadow: 0 0 0 10px rgba(76, 195, 138, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(76, 195, 138, 0); }
+    }
+
+    #powerIcon {
+      font-size: 30px;
+      color: white;
+    }
+
+    #statusText {
+      margin-top: 10px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo-container">
+    <img src="chatgpt-logo.webp" alt="ChatGPT Logo">
+  </div>
+  <div class="heading-text"><span class="mint-text">SPLIT</span> ASSISTANT</div>
+
+  <div id="powerButton">
+    <div id="powerIcon">&#x23FB;</div>
+  </div>
+  <div id="statusText">Status: OFF</div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

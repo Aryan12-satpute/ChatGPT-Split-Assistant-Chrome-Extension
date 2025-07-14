@@ -1,0 +1,8 @@
+/* Optional styles injected into ChatGPT (none used yet) */
+/* Glowing border around assistant window */
+#chatgpt-split-assistant-frame {
+    box-shadow: 0 0 12px 4px #00ff88;
+    border: 2px solid #00ff88;
+    border-radius: 4px;
+    z-index: 9999;
+}

@@ -1,0 +1,1 @@
+// Required for service worker (left empty for now)
